@@ -36,8 +36,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     // full exoplayer library
-    implementation 'com.google.android.exoplayer:exoplayer:2.8.2'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.9.0'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.9.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
     /*
     library modules
